@@ -1,5 +1,2 @@
-#
-# Cookbook:: scalr-nagios
-# Recipe:: default
-#
-# Copyright:: 2018, The Authors, All Rights Reserved.
+include_recipe 'nagios::default'
+include_recipe 'nrpe::default'
